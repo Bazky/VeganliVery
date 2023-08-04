@@ -1,0 +1,43 @@
+:root {
+  --primary-color: rgb(132, 170, 60);
+  --secondary-color: rgb(73, 137, 41);
+  --third-color: rgb(255, 199, 106);
+  --white-color: rgb(255, 255, 255);
+  --black-color: rgb(0, 0, 0);
+  --font: "Ubuntu", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+  background-color: var(--white-color);
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100vw;
+  background-color: rgb(132, 170, 60);
+}
